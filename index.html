@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Technium.eu — Affaire BMN : 13 ans de combat judiciaire</title>
+  <meta name="description" content="SARL BMN c/ SMINA — 13 ans de dysfonctionnements institutionnels à Avignon. Faux constats d'huissier, PV de police falsifié, avocats défaillants, greffe complice. 20 plaintes pénales. 3 arrêts favorables CA Nîmes." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">Technium<span>.eu</span></a>
+    <ul class="nav-links">
+      <li><a href="#faits">Les faits</a></li>
+      <li><a href="#etat">État de la procédure</a></li>
+      <li><a href="#chiffres">Chiffres clés</a></li>
+      <li><a href="#documents">Documents</a></li>
+      <li><a href="#decisions-officielles">Décisions officielles</a></li>
+      <li><a href="#soutenir" class="nav-soutenir">Soutenir</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-burger" aria-label="Menu" onclick="toggleMenu()">&#9776;</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-badge">Information judiciaire JI CABDOY 22000045 — En cours</div>
+  <h1>AFFAIRE <span class="accent">SARL BMN</span><br>13 ans de combat</h1>
+  <p class="hero-sub">Faux constats d'huissier · PV de police falsifié · Avocats défaillants · Greffe complice<br>
+  Un entrepreneur détruit par les institutions censées le protéger</p>
+  <div class="hero-stats">
+    <div class="stat">
+      <span class="stat-num">13</span>
+      <span class="stat-label">ans de procédures</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">20</span>
+      <span class="stat-label">plaintes déposées (CC-001 à CC-020)</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">3</span>
+      <span class="stat-label">arrêts favorables CA Nîmes</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">2M€</span>
+      <span class="stat-label">de préjudice estimé</span>
+    </div>
+  </div>
+  <a href="#faits" class="btn-primary">Découvrir les faits</a>
+</header>
+
+<!-- IDENTITÉ DES PARTIES -->
+<section class="section-dark" id="identite">
+  <div class="container">
+    <h2 class="section-title">Identité des parties</h2>
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-icon">🏢</div>
+        <h3>La Victime</h3>
+        <ul class="list">
+          <li><strong>Société :</strong> SARL B.M.N</li>
+          <li><strong>SIREN :</strong> 790 559 561 — RCS Avignon</li>
+          <li><strong>Activité :</strong> Distribution alimentaire en gros</li>
+          <li><strong>Siège social :</strong> 3407 Chemin de la Peyrière — 84200 Carpentras</li>
+          <li><strong>Établissement :</strong> Bat S Emplacement n°1 — MIN d'Avignon — 84000 Avignon</li>
+          <li><strong>Gérant :</strong> M. ALAOUI HACHMANI Moulay Hassan</li>
+          <li><strong>Mandataire :</strong> M. ADJAL Amor</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚖️</div>
+        <h3>L'instruction judiciaire</h3>
+        <ul class="list">
+          <li><strong>N° instruction :</strong> JI CABDOY 22000045</li>
+          <li><strong>N° Parquet :</strong> 22301000030</li>
+          <li><strong>Juge :</strong> Mme JOURNOT — Cabinet 4 — TJ Avignon</li>
+          <li><strong>Avocats :</strong> Me DEGIRMENCI & Me CHERGUI</li>
+          <li><strong>Arrêts CA Nîmes :</strong> N° 24-107 + N° 24-895 + N° 25-239 (28 avr. 2025)</li>
+          <li><strong>Dépôt au greffe :</strong> 17 mars 2026</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-icon">🎯</div>
+        <h3>Les mis en cause</h3>
+        <ul class="list">
+          <li>SCP TARBOURIECH-SIBUT-BOURDE — Huissiers</li>
+          <li>M. Patrick TRALONGO — Directeur SMINA / Juge consulaire</li>
+          <li>OPJ Philippe MAUFROY — PV falsifié</li>
+          <li>Me Frédéric BASSOMPIERRE — Avocat, ex-Bâtonnier</li>
+          <li>Me Frédéric TORELLI et Me Cyrielle DELEUZE (SELARL ÉTUDE BALINCOURT) — Mandataires judiciaires</li>
+          <li>Me TRIBHOU, Me FARYSSY, Me WADE</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RÉSUMÉ EXÉCUTIF -->
+<section class="section-light">
+  <div class="container">
+    <div class="alert-box">
+      <strong>EN BREF :</strong> La SARL BMN, société de distribution alimentaire en gros implantée au MIN d'Avignon depuis 2013,
+      a été détruite par une série de manœuvres frauduleuses orchestrées sur plus de dix ans. Ces manœuvres ont conduit à son
+      expulsion illégale le <strong>4 février 2022</strong>, puis à sa liquidation judiciaire frauduleuse le
+      <strong>23 octobre 2024</strong>, causant un préjudice global estimé à <strong>2 000 000 euros</strong>.
+    </div>
+    <div class="three-axes">
+      <div class="axe">
+        <div class="axe-num">AXE 1</div>
+        <h3>Faux en écriture publique</h3>
+        <p>Production par les huissiers adverses de procès-verbaux de constat falsifiés, confirmée par rapport d'analyse
+        forensique du 10 mars 2026. Pièce 16 BIS scannée via CamScanner (app mobile) — procédé non professionnel.
+        Pièce 16 : fichier PDF modifié 3h34 après sa création.</p>
+      </div>
+      <div class="axe">
+        <div class="axe-num">AXE 2</div>
+        <h3>Obstruction à la justice</h3>
+        <p>Falsification du PV de clôture N°2018/006112/12 par l'OPJ MAUFROY — en contradiction avec ses propres PV d'audition.
+        Obstruction IGPN par le Commissaire LUCA : le signalement redirigé vers le supérieur du policier visé.
+        Suppression de preuves par Me BASSOMPIERRE.</p>
+      </div>
+      <div class="axe">
+        <div class="axe-num">AXE 3</div>
+        <h3>Privation de défense organisée</h3>
+        <p>Abandon successif de cinq avocats documenté. Me BASSOMPIERRE dissimule les PV à son client.
+        Me FARYSSY dépose une plainte irrecevable. Me TRIBHOU ne se présente pas à l'audience décisive.
+        Chaque avocat sabote la procédure à son tour.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LES 8 FAITS MARQUANTS -->
+<section class="section-dark" id="faits">
+  <div class="container">
+    <h2 class="section-title">Les 8 faits marquants</h2>
+    <p class="section-sub">Chaque fait est étayé par des pièces versées au dossier d'instruction</p>
+
+    <div class="faits-list">
+
+      <div class="fait">
+        <div class="fait-num">01</div>
+        <div class="fait-content">
+          <h3>Des huissiers qui mentent dans leurs constats officiels</h3>
+          <p>En 2016-2017, la SCP Tarbouriech &amp; Sibut-Bourde — mandatée par la SMINA — produit des constats d'huissier
+          affirmant que le local BMN est propre et sans fiente. Or, 20 jours plus tôt, un autre huissier (Me Kluczynski,
+          mandaté par BMN) a constaté dans le même local la présence de fientes, de cadavres de rongeurs et d'oiseaux.</p>
+          <p>Lors de leurs auditions par la police en 2018, les deux huissiers se contredisent eux-mêmes. Me Sibut-Bourde
+          admet que des fientes étaient bien présentes. Me Tarbouriech reconnaît avoir vu du "guano à l'état sec" — élément
+          totalement absent de ses propres constats officiels. Cette même SCP avait été mandatée par BMN en 2013 :
+          elle connaissait parfaitement les lieux avant de se retourner contre son ancien client.</p>
+          <div class="aveux-box">
+            <strong>Aveux de Me TARBOURIECH — 21 sept. 2018 (PV audition, Commissariat d'Avignon) :</strong><br>
+            Admet avoir constaté du guano lors de ses <em>deux</em> visites des locaux BMN — sans jamais l'avoir consigné dans ses
+            constats décrivant des « bureaux propres, clos, exempts de volatiles ». <strong>Aveu irréfutable de faux en écriture publique.</strong>
+          </div>
+          <div class="aveux-box">
+            <strong>Aveux de Me SIBUT-BOURDE — 5 oct. 2018 (PV audition, Commissariat d'Avignon) :</strong><br>
+            Admet que ses propres photos montrent de la fiente <em>sèche</em> — contredisant directement son constat qui affirmait :
+            « Aucun volatile… je note l'ABSENCE de fiente ». Sa distinction post-hoc « fraîche/sèche » est <strong>absente de tout acte écrit</strong>.
+          </div>
+          <div class="forensique-box">
+            <strong>Analyse forensique (10 mars 2026) :</strong> Le constat Sibut-Bourde (Pièce 16 BIS) a été numérisé via CamScanner
+            (application mobile) — procédé inadmissible pour un acte d'huissier. Les 11 pages de photos sont délibérément
+            illisibles. La Pièce 16 montre une modification <strong>3h34 après sa création</strong> sur scanner professionnel
+            RICOH — falsification post-création établie.
+          </div>
+        </div>
+      </div>
+
+      <div class="fait">
+        <div class="fait-num">02</div>
+        <div class="fait-content">
+          <h3>Un policier qui écrit le contraire de ce qu'il a lui-même entendu</h3>
+          <p>L'OPJ Philippe Maufroy mène l'enquête et constate lui-même les contradictions. Il écrit dans ses PV d'audition :
+          <em>« On constate que les constats d'huissiers sont rédigés avec un écart de 20 jours mais étant cependant
+          contradictoires. Disposez-vous d'éléments pouvant justifier cette discordance ? »</em></p>
+          <p>Mais dans son PV de clôture, ce même OPJ conclut : <em>« Les investigations menées au cours de l'enquête
+          démontrent l'absence d'élément matériel susceptible de caractériser les infractions de faux et usage de faux. »</em>
+          Résultat : classement sans suite le 27 février 2019.</p>
+          <p>L'avocat de BMN à l'époque, qui avait accès aux PV, a annoté en marge des auditions : <em>« grotesque »</em>,
+          <em>« se fout de la gueule du monde »</em>, <em>« cela n'a jamais été constaté »</em>. Il savait. Il n'a rien dit à son client.</p>
+        </div>
+      </div>
+
+      <div class="fait">
+        <div class="fait-num">03</div>
+        <div class="fait-content">
+          <h3>Une analyse forensique qui confirme les manipulations</h3>
+          <p>Le rapport forensique du 10 mars 2026 révèle que le constat d'huissier Sibut-Bourde (Pièce 16 BIS) a été
+          numérisé via CamScanner, une application de téléphone portable, alors que tout acte officiel d'huissier est
+          systématiquement scanné sur équipement professionnel. Les 11 pages de photographies jointes sont d'une qualité
+          délibérément dégradée.</p>
+          <p>Un autre fichier (Pièce 16) montre une modification <strong>3h34 après sa numérisation</strong> sur scanner
+          professionnel RICOH — modification inexplicable pour un document officiel.</p>
+        </div>
+      </div>
+
+      <div class="fait">
+        <div class="fait-num">04</div>
+        <div class="fait-content">
+          <h3>Quatre avocats successifs qui trahissent leur client</h3>
+          <ul class="list">
+            <li><strong>Me BASSOMPIERRE (2018-2021)</strong> — Bâtonnier du barreau de Carpentras — dissimule les PV
+            d'enquête à son propre client, n'autorisant qu'une consultation de quelques minutes en salle d'attente.
+            Ses annotations manuscrites sur les PV prouvent qu'il savait tout de la falsification.</li>
+            <li><strong>Me FARYSSY (2021)</strong> — Dépose la plainte pénale de manière anonyme (sans nom de cabinet)
+            et "oublie" le K-Bis. Résultat : plainte irrecevable. Il agit sur les conseils de Bassompierre.</li>
+            <li><strong>Me TRIBHOU (2014-2022)</strong> — 8 ans de représentation. Ne se présente pas à l'audience
+            décisive devant le juge de l'exécution. Produit en justice des documents délibérément illisibles.
+            Interdit à son client d'assister à sa propre audience.</li>
+            <li><strong>Me WADE</strong> — Intervient dans la procédure de liquidation. Fausses déclarations
+            lors des audiences, défaut de représentation.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="fait">
+        <div class="fait-num">05</div>
+        <div class="fait-content">
+          <h3>Le Greffe inscrit une mention frauduleuse sur le Kbis</h3>
+          <p>Le 20 avril 2022 — deux mois et demi après l'expulsion du 4 février — le Greffe inscrit sur le Kbis une « condition suspensive »
+          relative à une activité artisanale que BMN n'a jamais exercée. Il bloque ensuite les dépôts de comptes
+          annuels, ce qui entraîne une convocation pénale du gérant pour non-dépôt, et envoie une lettre de menaces
+          pour des comptes qu'il validera lui-même trois jours plus tard.</p>
+          <p>Le Kbis du 18 octobre 2024 fait apparaître la mention erronée n°10713 <strong>toujours présente</strong>
+          malgré le prétendu retrait du greffe le 15 octobre 2024 — preuve du faux Kbis.</p>
+        </div>
+      </div>
+
+      <div class="fait">
+        <div class="fait-num">06</div>
+        <div class="fait-content">
+          <h3>L'expulsion par le même huissier faussaire</h3>
+          <p>Le 4 février 2022, c'est l'huissier Sibut-Bourde — celui-là même dont les constats sont identifiés
+          comme frauduleux — qui procède à l'expulsion physique de la SARL BMN, avec le concours de la Préfecture.
+          Serrure du portail cassée, cadenas posé, <strong>30 000€ de matériel perdu</strong>.</p>
+          <p>La SMINA réclame des loyers impayés alors que c'est elle-même qui a interdit à BMN d'exercer son
+          activité pendant sept ans.</p>
+        </div>
+      </div>
+
+      <div class="fait">
+        <div class="fait-num">07</div>
+        <div class="fait-content">
+          <h3>Le Directeur du MIN était aussi juge au Tribunal de Commerce</h3>
+          <p>M. Tralongo, directeur du MIN et principal artisan de l'éviction, siégeait parallèlement comme
+          <strong>juge consulaire au Tribunal de Commerce d'Avignon</strong>. Il fréquentait les mêmes magistrats
+          qui statuaient sur l'affaire BMN. Ce conflit d'intérêts, signalé au Procureur Guémas dès octobre 2018,
+          n'a jamais reçu de suite.</p>
+        </div>
+      </div>
+
+      <div class="fait">
+        <div class="fait-num">08</div>
+        <div class="fait-content">
+          <h3>Le signalement IGPN renvoyé au supérieur du policier visé</h3>
+          <p>Le signalement déposé sur la plateforme nationale de l'IGPN (N° D-2022/67) n'a pas été traité par
+          les services de l'inspection. Il a été redirigé vers le Commissaire Général Jean-Marc Luca, supérieur
+          hiérarchique direct de l'OPJ mis en cause, qui l'a classé sans examen par courrier du 7 janvier 2022.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ÉTAT DE LA PROCÉDURE -->
+<section class="section-light" id="etat">
+  <div class="container">
+    <h2 class="section-title">État de la procédure</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">2013</div>
+        <div class="timeline-content">
+          <h3>Création de la SARL BMN</h3>
+          <p>Installation au MIN d'Avignon (Marché d'Intérêt National). Début de l'activité de distribution alimentaire en gros.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2016–2017</div>
+        <div class="timeline-content">
+          <h3>Faux constats d'huissier</h3>
+          <p>Production par la SCP Tarbouriech &amp; Sibut-Bourde de constats falsifiés mandatés par la SMINA.</p>
+        </div>
+      </div>
+      <div class="timeline-item victory">
+        <div class="timeline-date">8 jan. 2015</div>
+        <div class="timeline-content">
+          <h3>1ère victoire CA Nîmes — Électricité rétablie ✓</h3>
+          <p>La Cour d'appel de Nîmes condamne la SMINA à rétablir immédiatement l'alimentation électrique coupée illégalement au local BMN.
+          Astreinte de <strong>150 €/jour</strong> de retard. Condamnation provisionnelle de <strong>20 000 €</strong> en faveur de BMN.</p>
+          <p class="source-cite">Source : référencé dans Cour de Cassation, Pourvoi n° 15-14.424 (25 jan. 2017)</p>
+        </div>
+      </div>
+      <div class="timeline-item victory">
+        <div class="timeline-date">25 jan. 2017</div>
+        <div class="timeline-content">
+          <h3>Cour de Cassation — Cassation partielle en faveur de BMN ✓</h3>
+          <p>Ch. commerciale — Pourvoi n° <strong>15-14.424</strong> — Cassation partielle de l'arrêt défavorable.
+          Les droits de BMN sur son local et les condamnations de la SMINA sont préservés. Décision publiée officiellement.</p>
+          <p class="source-cite">Source officielle : Cour de Cassation — Pourvoi 15-14.424 — Légifrance / Juricaf</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">Fév. 2019</div>
+        <div class="timeline-content">
+          <h3>Classement sans suite</h3>
+          <p>PV de clôture falsifié de l'OPJ Maufroy — classement sans suite le 27 février 2019 malgré les contradictions documentées.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">Fév. 2022</div>
+        <div class="timeline-content">
+          <h3>Expulsion illégale</h3>
+          <p>4 février 2022 — Expulsion physique par l'huissier Sibut-Bourde avec le concours de la Préfecture. 30 000€ de matériel perdu.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2022–2023</div>
+        <div class="timeline-content">
+          <h3>Ouverture de l'instruction judiciaire</h3>
+          <p>Instruction pénale JI CABDOY 22000045 ouverte au TJ d'Avignon, Cabinet 4, Juge JOURNOT.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">17 avr. 2024</div>
+        <div class="timeline-content">
+          <h3>Redressement judiciaire</h3>
+          <p>Jugement d'ouverture au TAE Avignon. Date de cessation des paiements fixée au <strong>2 octobre 2023</strong>.
+          Mandataires judiciaires : <strong>Me Frédéric TORELLI</strong> et <strong>Me Cyrielle DELEUZE</strong> (SELARL ÉTUDE BALINCOURT).</p>
+          <p class="source-cite">Source : Publication BODACC — 17 avril 2024</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">23 oct. 2024</div>
+        <div class="timeline-content">
+          <h3>Liquidation judiciaire frauduleuse</h3>
+          <p>Conversion en liquidation judiciaire — TAE Avignon — contestée comme frauduleuse (CC-010).
+          Mandataire-liquidateur : Me Cyrielle DELEUZE (SELARL ÉTUDE BALINCOURT).</p>
+          <p class="source-cite">Source : Publication BODACC — 23 octobre 2024</p>
+        </div>
+      </div>
+      <div class="timeline-item victory">
+        <div class="timeline-date">28 avr. 2025</div>
+        <div class="timeline-content">
+          <h3>3 arrêts favorables CA Nîmes ✓</h3>
+          <p>
+            <strong>N° 24-107</strong> — Confirmation de l'instruction judiciaire en cours<br>
+            <strong>N° 24-895</strong> — 2e confirmation — dispense <em>partielle</em> de consignation<br>
+            <strong>N° 25-239</strong> — 3ème confirmation + dispense totale de consignation
+          </p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">Mars 2026</div>
+        <div class="timeline-content">
+          <h3>Dépôt de 138 pages au greffe</h3>
+          <p>17 mars 2026 — Dossier de 138 pages comprenant 20 plaintes pénales avec constitution de partie civile,
+          rapport d'analyse forensique, et demande de 13 auditions, déposé directement au greffe du Juge d'instruction.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">2026 — En cours</div>
+        <div class="timeline-content">
+          <h3>Recours CEDH + Parlement Européen</h3>
+          <p>Requête CEDH (art. 6 et 13 de la Convention + Protocole 1) — Pétition au Parlement Européen (PETI — art. 47 Charte des droits fondamentaux de l'UE).</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">6 oct. 2025</div>
+        <div class="timeline-content">
+          <h3>Clôture et radiation de la SARL BMN</h3>
+          <p>Clôture pour insuffisance d'actif — jugement TAE Avignon du 6 octobre 2025. Radiation effective le <strong>8 octobre 2025</strong>.
+          SIREN 790 559 561 radié. La société qui était viable a été détruite par les fraudes documentées.</p>
+          <p class="source-cite">Source : Publication BODACC — 6 octobre 2025</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="nouveaux-developpements">
+      <h3>Nouveaux développements (mars 2026)</h3>
+      <div class="dev-grid">
+        <div class="dev-item">
+          <h4>Le Doyen des Juges d'Instruction bloque la procédure</h4>
+          <p>Plainte CC-022 contre M. MATHE, Doyen des Juges d'Instruction au TJ d'Avignon (23 mars 2026).
+          Ordonnances d'irrecevabilité successives — cassées trois fois par la CA de Nîmes.</p>
+        </div>
+        <div class="dev-item">
+          <h4>Le greffe refuse de réceptionner les pièces</h4>
+          <p>Le 17 mars 2026, lors du dépôt physique, le secrétariat du greffe a refusé de réceptionner
+          certains documents — obstacle supplémentaire.</p>
+        </div>
+        <div class="dev-item">
+          <h4>Le Parquet retient le dossier</h4>
+          <p>Plainte en préparation contre la Procureure Florence GALTIER. Dossier retenu pendant des années.
+          Classement sans suite fondé sur le PV falsifié de l'OPJ Maufroy.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CHIFFRES CLÉS -->
+<section class="section-accent" id="chiffres">
+  <div class="container">
+    <h2 class="section-title">Chiffres clés</h2>
+    <div class="chiffres-grid">
+      <div class="chiffre">
+        <div class="chiffre-num">13 ans</div>
+        <div class="chiffre-label">de combat judiciaire (2013–2026)</div>
+      </div>
+      <div class="chiffre">
+        <div class="chiffre-num">20</div>
+        <div class="chiffre-label">plaintes déposées (CC-001 à CC-020) + 2 en préparation</div>
+      </div>
+      <div class="chiffre">
+        <div class="chiffre-num">4</div>
+        <div class="chiffre-label">avocats dont les manquements sont documentés</div>
+      </div>
+      <div class="chiffre">
+        <div class="chiffre-num">3</div>
+        <div class="chiffre-label">arrêts favorables de la Cour d'appel de Nîmes</div>
+      </div>
+      <div class="chiffre">
+        <div class="chiffre-num">138</div>
+        <div class="chiffre-label">pages déposées au greffe en mars 2026</div>
+      </div>
+      <div class="chiffre">
+        <div class="chiffre-num">2 000 000 €</div>
+        <div class="chiffre-label">de préjudice estimé</div>
+      </div>
+      <div class="chiffre">
+        <div class="chiffre-num">150 €</div>
+        <div class="chiffre-label">revenus mensuels actuels du plaignant</div>
+      </div>
+      <div class="chiffre danger">
+        <div class="chiffre-num">&gt; 5 g/L</div>
+        <div class="chiffre-label">glycémies régulièrement au-dessus du seuil de danger vital</div>
+      </div>
+    </div>
+
+    <div class="question-centrale">
+      <p>QUESTION CENTRALE</p>
+      <blockquote>
+        Comment une société qui a gagné deux fois en Cour d'appel peut-elle être expulsée par le même huissier
+        dont les constats ont été jugés contradictoires, sur la base d'un PV de police dont l'auteur écrit le
+        contraire de ce qu'il a lui-même entendu, pendant que quatre avocats successifs sabotent sa défense,
+        que le greffe falsifie son Kbis, et que le directeur du marché siège en même temps comme juge au
+        tribunal qui statue sur son sort ?
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- CONSÉQUENCES HUMAINES -->
+<section class="section-dark">
+  <div class="container">
+    <h2 class="section-title">Les conséquences humaines</h2>
+    <div class="human-grid">
+      <div class="human-text">
+        <p>M. ADJAL Amor se bat depuis 13 ans. Un certificat médical établi le 12 février 2026 par le
+        Docteur Patrick Basten (médecin généraliste, Carpentras) atteste qu'il souffre d'un
+        <strong>diabète de type 2 depuis 2021</strong>, ayant évolué vers un traitement insuliné associé
+        à la metformine et au Forxiga.</p>
+        <p>Le médecin certifie que son état de stress chronique nuit directement à l'équilibre glycémique
+        et qu'il présente des symptômes anxio-dépressifs sévères, rapportés exclusivement à sa plainte
+        contre le MIN, les huissiers, l'officier de police judiciaire et les avocats.</p>
+        <p>Il vit avec <strong>150€ par mois</strong>. Il ne peut pas consulter de psychologue (60-70€ la séance).
+        La maladie qui le ronge est la conséquence directe et médicalement établie de 13 années de stress judiciaire.
+        Chaque jour d'inaction de la justice aggrave son état de santé.</p>
+      </div>
+      <div class="glycemie-table">
+        <h3>Relevés de glycémie (norme : 70–110 mg/dL)</h3>
+        <table>
+          <thead>
+            <tr><th>Date et heure</th><th>Glycémie</th><th>Niveau</th></tr>
+          </thead>
+          <tbody>
+            <tr class="danger-vital"><td>1er mars, 00h08</td><td>559 mg/dL</td><td>× 5 — DANGER VITAL</td></tr>
+            <tr class="danger-vital"><td>18 février, 18h45</td><td>443 mg/dL</td><td>× 4 — CRITIQUE</td></tr>
+            <tr class="danger-high"><td>1er mars, 00h14</td><td>413 mg/dL</td><td>× 3,7</td></tr>
+            <tr class="danger-high"><td>24 mars, 08h41</td><td>361 mg/dL</td><td>× 3,3</td></tr>
+            <tr class="danger-high"><td>15 février, 08h58</td><td>361 mg/dL</td><td>× 3,3</td></tr>
+            <tr class="danger-med"><td>19 février, 22h10</td><td>334 mg/dL</td><td>× 3</td></tr>
+            <tr class="danger-med"><td>15 février, 16h34</td><td>325 mg/dL</td><td>× 3</td></tr>
+            <tr><td>19 février, 10h53</td><td>219 mg/dL</td><td>× 2</td></tr>
+          </tbody>
+        </table>
+        <p class="table-note">Source : glucomètre OneTouch Verio — captures d'écran datées</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- POURQUOI CETTE AFFAIRE EST EXCEPTIONNELLE -->
+<section class="section-light">
+  <div class="container">
+    <h2 class="section-title">Pourquoi cette affaire est exceptionnelle</h2>
+    <div class="exceptional-text">
+      <p>Ce dossier n'est pas un litige commercial ordinaire. C'est une affaire dans laquelle un entrepreneur
+      a été détruit par ceux-là mêmes qui étaient censés garantir ses droits : un maire, des fonctionnaires de
+      police, des officiers ministériels (huissiers), des avocats, des agents du greffe. Chacun de ces acteurs
+      était payé par l'argent public ou par le justiciable lui-même.</p>
+      <p>Cette affaire met en évidence une <strong>défaillance systémique</strong> : lorsque tous les contre-pouvoirs
+      (police, justice, barreau, greffe) dysfonctionnent simultanément, le citoyen se retrouve seul face à un mur
+      institutionnel.</p>
+      <div class="systemic-grid">
+        <div class="systemic-item">L'IGPN renvoie le dossier au supérieur du policier visé</div>
+        <div class="systemic-item">Le bâtonnier est l'avocat qui dissimule les preuves</div>
+        <div class="systemic-item">Le directeur du marché siège comme juge au tribunal</div>
+        <div class="systemic-item">Le greffe falsifie le Kbis</div>
+        <div class="systemic-item">Le Doyen des Juges rend des ordonnances d'irrecevabilité cassées 3 fois</div>
+        <div class="systemic-item">Seule la CA de Nîmes remplit sa mission — par 3 arrêts successifs</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DOCUMENTS -->
+<section class="section-dark" id="documents">
+  <div class="container">
+    <h2 class="section-title">Inventaire des documents clés</h2>
+    <p class="section-sub">77 pièces recensées au dossier d'instruction — extraits des plus importantes</p>
+
+    <div class="docs-categories">
+
+      <div class="doc-category">
+        <h3>🏛️ Arrêts judiciaires (victoires)</h3>
+        <div class="doc-list">
+          <div class="doc-item victory">
+            <span class="doc-ref">BMN-CIV-JU-001</span>
+            <span class="doc-title">Arrêt N° 24-107 — CA Nîmes — 28 avr. 2025</span>
+            <span class="doc-desc">1re confirmation de la poursuite de l'information judiciaire</span>
+          </div>
+          <div class="doc-item victory">
+            <span class="doc-ref">BMN-CIV-JU-002</span>
+            <span class="doc-title">Arrêt N° 24-895 — CA Nîmes — 28 avr. 2025</span>
+            <span class="doc-desc">2e confirmation de l'instruction — dispense <strong>partielle</strong> de consignation accordée à M. ADJAL</span>
+          </div>
+          <div class="doc-item victory">
+            <span class="doc-ref">BMN-CIV-JU-003</span>
+            <span class="doc-title">Arrêt N° 25-239 — CA Nîmes — 28 avr. 2025</span>
+            <span class="doc-desc">3e confirmation de l'instruction + dispense <strong>totale</strong> de consignation</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="doc-category">
+        <h3>🔬 Preuves forensiques</h3>
+        <div class="doc-list">
+          <div class="doc-item danger">
+            <span class="doc-ref">BMN-PEN-EX-001</span>
+            <span class="doc-title">Rapport d'analyse forensique — 10 mars 2026</span>
+            <span class="doc-desc">Confirmation des anomalies techniques dans les constats d'huissier</span>
+          </div>
+          <div class="doc-item danger">
+            <span class="doc-ref">BMN-CIV-PV-016</span>
+            <span class="doc-title">Pièce 16 — Constat SIBUT-BOURDE — 04/04/2016</span>
+            <span class="doc-desc">FAUX DOCUMENTÉ : fichier PDF modifié 3h34 après création sur scanner RICOH</span>
+          </div>
+          <div class="doc-item danger">
+            <span class="doc-ref">BMN-CIV-PV-016B</span>
+            <span class="doc-title">Pièce 16 BIS — Constat SIBUT-BOURDE — 30/08/2017</span>
+            <span class="doc-desc">FAUX DOCUMENTÉ : numérisée via CamScanner (app mobile) — 11 photos illisibles</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="doc-category">
+        <h3>📋 Plaintes pénales déposées — CC-001 à CC-020 (dépôt physique 17/03/2026)</h3>
+        <div class="doc-list">
+          <div class="doc-item"><span class="doc-ref">CC-001</span><span class="doc-title">SCP TARBOURIECH-SIBUT-BOURDE et SMINA — Plainte initiale devant le Doyen des Juges (15/12/2021) — faux constats 2016-2017</span></div>
+          <div class="doc-item"><span class="doc-ref">CC-002</span><span class="doc-title">SCP TARBOURIECH-SIBUT-BOURDE et SMINA — Plainte devant la Procureure Mme GALTIER (05/01/2022)</span></div>
+          <div class="doc-item"><span class="doc-ref">CC-003</span><span class="doc-title">Courrier aux corps de l'État — Récapitulatif des irrégularités (17/03/2022) — Pièce n°24</span></div>
+          <div class="doc-item"><span class="doc-ref">CC-004</span><span class="doc-title">Maire d'Avignon en qualité de Président du SMINA — Complicité de faux, abus de pouvoir (11/03/2026)</span></div>
+          <div class="doc-item"><span class="doc-ref">CC-005</span><span class="doc-title">Me Chantal ROUSSEL-BARRIER (Avocate SMINA — Barreau d'Avignon) — Usage de faux en écriture publique (11/03/2026)</span></div>
+          <div class="doc-item"><span class="doc-ref">CC-006</span><span class="doc-title">OPJ Philippe MAUFROY — Faux PV de clôture N°2018/006112/12 (09/03/2026)</span></div>
+          <div class="doc-item"><span class="doc-ref">CC-007</span><span class="doc-title">Commissaire Général Jean-Marc LUCA et Major Dominique SANTARELLI (DDSP Vaucluse) — Obstruction IGPN N°D-2022/67 (09/03/2026)</span></div>
+          <div class="doc-item"><span class="doc-ref">CC-008</span><span class="doc-title">Greffe TAE Avignon — Faux Kbis (mention n°10713 du 20/04/2022) — plainte fusionnée (16/03/2026)</span></div>
+          <div class="doc-item"><span class="doc-ref">CC-009</span><span class="doc-title">Me Frédéric BASSOMPIERRE (ex-Bâtonnier Carpentras) — Suppression de preuve, rétention dossier (06/03/2026)</span></div>
+          <div class="doc-item"><span class="doc-ref">CC-010</span><span class="doc-title">Me Frédéric TORELLI et Me Cyrielle DELEUZE (SELARL ÉTUDE BALINCOURT) — Mandataires judiciaires — Faux, substitution de pièces (06/03/2026)</span></div>
+          <div class="doc-item"><span class="doc-ref">CC-011</span><span class="doc-title">Greffe TAE Avignon — Constitution de partie civile complémentaire — Obstruction à l'accès à la justice (06/03/2026)</span></div>
+          <div class="doc-item"><span class="doc-ref">CC-012</span><span class="doc-title">Greffe TC Avignon — Faux Kbis, convocation pénale injustifiée, relance abusive (27/02/2026)</span></div>
+          <div class="doc-item"><span class="doc-ref">CC-013</span><span class="doc-title">Me Arnaud TRIBHOU (Cabinet COBALT AVOCATS) — Pièces délibérément illisibles, abandon (23/02/2026)</span></div>
+          <div class="doc-item"><span class="doc-ref">CC-014</span><span class="doc-title">Me Papa Mamadou WADE — Fausse déclaration au TC, abandon délibéral (27/02/2025)</span></div>
+          <div class="doc-item"><span class="doc-ref">CC-015</span><span class="doc-title">Plainte historique devant le Doyen des Juges TJ Avignon — SCP TARBOURIECH-SIBUT-BOURDE et SMINA (procédure initiale)</span></div>
+          <div class="doc-item"><span class="doc-ref">CC-016</span><span class="doc-title">Greffe TC Avignon — Constitution de partie civile formelle (art. 85 CPP) — Version V4 (27/02/2026)</span></div>
+          <div class="doc-item"><span class="doc-ref">CC-017</span><span class="doc-title">Me Farid FARYSSY — Escroquerie, plainte irrecevable déposée sans Kbis (13/03/2026)</span></div>
+          <div class="doc-item"><span class="doc-ref">CC-018</span><span class="doc-title">Me TRIBHOU + Me FARYSSY (conjointe) — Complicité coordonnée de privation de défense (13/03/2026)</span></div>
+          <div class="doc-item"><span class="doc-ref">CC-019</span><span class="doc-title">SCP TARBOURIECH-SIBUT-BOURDE — Plainte individuelle ciblée — Faux constats, analyse forensique (17/03/2026)</span></div>
+          <div class="doc-item"><span class="doc-ref">CC-020</span><span class="doc-title">M. Patrick TRALONGO — Prise illégale d'intérêts (art. 432-12) — Directeur SMINA et juge consulaire TC simultanément (17/03/2026)</span></div>
+        </div>
+      </div>
+      <div class="doc-category">
+        <h3>⚠️ Plaintes complémentaires (postérieures au 17/03/2026)</h3>
+        <div class="doc-list">
+          <div class="doc-item danger"><span class="doc-ref">CC-021</span><span class="doc-title">Procureure Florence GALTIER et Bureau d'Ordre — Rétention du dossier pendant des années, classement sans suite fondé sur le faux PV de l'OPJ MAUFROY</span></div>
+          <div class="doc-item danger"><span class="doc-ref">CC-022</span><span class="doc-title">M. MATHE, Doyen des Juges d'Instruction TJ Avignon — Ordonnances d'irrecevabilité successives (cassées 3 fois par la CA de Nîmes) (23/03/2026)</span></div>
+        </div>
+      </div>
+
+      <div class="doc-category" id="decisions-officielles">
+        <h3>🔗 Décisions officiellement publiées</h3>
+        <p class="doc-intro">Ces décisions ont été publiées officiellement sur des bases de données juridiques publiques (Légifrance, Juricaf, BODACC) et peuvent être vérifiées indépendamment.</p>
+        <div class="doc-list">
+          <div class="doc-item victory">
+            <span class="doc-ref">CA NÎMES — 08/01/2015</span>
+            <span class="doc-title">Cour d'appel de Nîmes — Chambre commerciale — SMINA c/ BMN</span>
+            <span class="doc-desc">SMINA condamnée à rétablir l'alimentation électrique sous astreinte de 150 €/jour · 20 000 € provisionnels accordés à BMN · Source : référencé dans pourvoi Cour de Cassation n° 15-14.424</span>
+          </div>
+          <div class="doc-item victory">
+            <span class="doc-ref">CASS. COM. — 25/01/2017 — Pourvoi n° 15-14.424</span>
+            <span class="doc-title">Cour de Cassation — Chambre commerciale — Cassation partielle</span>
+            <span class="doc-desc">Cassation partielle en faveur de BMN · Droits sur le local et condamnations de la SMINA préservés · Décision publiée sur Légifrance et Juricaf · Référence : Pourvoi 15-14.424</span>
+          </div>
+          <div class="doc-item">
+            <span class="doc-ref">BODACC — 17/04/2024</span>
+            <span class="doc-title">TAE Avignon — Jugement d'ouverture redressement judiciaire — SARL BMN (SIREN 790 559 561)</span>
+            <span class="doc-desc">Cessation des paiements fixée au 02/10/2023 · Mandataires judiciaires : Me Frédéric TORELLI et Me Cyrielle DELEUZE — SELARL ÉTUDE BALINCOURT</span>
+          </div>
+          <div class="doc-item danger">
+            <span class="doc-ref">BODACC — 23/10/2024</span>
+            <span class="doc-title">TAE Avignon — Conversion en liquidation judiciaire — SARL BMN (SIREN 790 559 561)</span>
+            <span class="doc-desc">Liquidation prononcée et contestée (CC-010) · Mandataire-liquidateur : Me Cyrielle DELEUZE — SELARL ÉTUDE BALINCOURT</span>
+          </div>
+          <div class="doc-item danger">
+            <span class="doc-ref">BODACC — 06/10/2025</span>
+            <span class="doc-title">TAE Avignon — Clôture pour insuffisance d'actif — Radiation SARL BMN (SIREN 790 559 561)</span>
+            <span class="doc-desc">Radiation effective le 8 octobre 2025 · Fin de la procédure collective · Société détruite après 13 ans de fraudes documentées</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="doc-category">
+        <h3>📁 Dossiers de fond</h3>
+        <div class="doc-list">
+          <div class="doc-item">
+            <span class="doc-ref">DOSSIER PRINCIPAL</span>
+            <span class="doc-title">DOSSIER_AMORULTIMATE_BMN_22032026_V2.docx</span>
+            <span class="doc-desc">Dossier complet de 138 pages — Version corrigée et complète — 22 mars 2026</span>
+          </div>
+          <div class="doc-item">
+            <span class="doc-ref">INVENTAIRE</span>
+            <span class="doc-title">PIECES_CONVICTION_BMN_23032026.xlsx</span>
+            <span class="doc-desc">77 pièces à conviction recensées et indexées</span>
+          </div>
+          <div class="doc-item">
+            <span class="doc-ref">REGISTRE</span>
+            <span class="doc-title">REGISTRE_PIECES_BMN_23032026.xlsx</span>
+            <span class="doc-desc">Registre central des preuves emails (CC-008 à CC-020)</span>
+          </div>
+          <div class="doc-item">
+            <span class="doc-ref">SYNTHÈSE</span>
+            <span class="doc-title">BMN_Synthese_Presse_v4_FINALE.docx</span>
+            <span class="doc-desc">Synthèse presse — 24 mars 2026 — Document de référence pour les médias</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SOUTENIR -->
+<section class="section-dark" id="soutenir">
+  <div class="container">
+    <h2 class="section-title">Soutenir le combat</h2>
+    <p class="section-sub">M. ADJAL, ancien entrepreneur prospère, vit aujourd'hui avec 150 €/mois. Chaque don finance directement ses frais d'avocat, les démarches CEDH et les procédures judiciaires.</p>
+
+    <div class="alert-box" style="margin-bottom: 2rem;">
+      🚨 <strong>Urgence médicale :</strong> Diabète aggravé par le stress judiciaire — glycémie documentée jusqu'à <strong>559 mg/dL (× 5 la norme)</strong>.
+      Il fait appel à des bons de secours d'urgence pour sa famille. Il a besoin de votre soutien <strong>maintenant</strong>.
+    </div>
+
+    <div class="soutenir-grid">
+      <div class="soutenir-card">
+        <h3>💙 Don libre — Frais judiciaires</h3>
+        <p>Soutenez directement M. ADJAL Amor. Chaque euro finance les frais d'avocat, les démarches CEDH et les procédures en cours.</p>
+        <div class="don-amounts">
+          <span class="don-btn">5 €</span>
+          <span class="don-btn active">10 €</span>
+          <span class="don-btn">20 €</span>
+          <span class="don-btn">50 €</span>
+        </div>
+        <a href="https://www.paypal.com/paypalme/amoradjal" target="_blank" rel="noopener" class="paypal-btn">💙 Payer via PayPal</a>
+      </div>
+      <div class="soutenir-card">
+        <h3>🛍️ E-Book — Dossier complet BMN</h3>
+        <p>Téléchargez le dossier complet : 22 plaintes résumées, chronologie, rapport forensique, 3 arrêts CA Nîmes, requête CEDH. PDF — 138 pages.</p>
+        <a href="https://www.paypal.com/paypalme/amoradjal/10" target="_blank" rel="noopener" class="paypal-btn">📥 Télécharger — 10 € via PayPal</a>
+      </div>
+      <div class="soutenir-card">
+        <h3>🔄 Soutien mensuel — Mises à jour exclusives</h3>
+        <p>Recevez les mises à jour exclusives de l'instruction pénale, de la CEDH et du Parlement Européen. Votre soutien régulier est vital.</p>
+        <a href="https://www.paypal.com/paypalme/amoradjal/5" target="_blank" rel="noopener" class="paypal-btn">🔄 Soutien mensuel — 5 €/mois via PayPal</a>
+      </div>
+    </div>
+
+    <div class="virement-box" style="margin-top: 1.5rem;">
+      <strong>Virement bancaire ou chèque :</strong>
+      Contacter M. ADJAL par email : <a href="mailto:amor@technium.eu">amor@technium.eu</a> — M. ADJAL Amor, 3407 chemin de la Peyrière, 84200 Carpentras
+    </div>
+  </div>
+</section>
+
+<!-- ACTIONS CITOYENNES -->
+<section class="section-light" id="actions">
+  <div class="container">
+    <h2 class="section-title">Actions citoyennes</h2>
+    <p class="section-sub">Trois leviers pour faire avancer la vérité : les réseaux sociaux, les médias d'investigation, les recours institutionnels.</p>
+
+    <div class="actions-grid">
+      <div class="action-card">
+        <h3>📣 1. Partager sur les réseaux</h3>
+        <div class="hashtag-box">#AffaireBMN · #Justice · #Avignon · #DeniDeJustice · #CEDH</div>
+        <p>🚨 <strong>AFFAIRE BMN :</strong> Un entrepreneur se bat depuis 13 ans contre des dysfonctionnements PROUVÉS — faux constats (analyse forensique), PV falsifié, 3 victoires en appel ignorées. 22 plaintes pénales. CEDH saisie.</p>
+      </div>
+      <div class="action-card">
+        <h3>📰 2. Alerter les médias</h3>
+        <ul class="media-list">
+          <li><span>Mediapart — Investigation</span> <a href="mailto:enquete@mediapart.fr">enquete@mediapart.fr</a></li>
+          <li><span>Le Monde — National</span> <a href="mailto:redaction@lemonde.fr">redaction@lemonde.fr</a></li>
+          <li><span>Libération — Société</span> <a href="mailto:societe@liberation.fr">societe@liberation.fr</a></li>
+          <li><span>Le Canard Enchaîné</span> <a href="mailto:redaction@lecanardenchaine.fr">redaction@lecanardenchaine.fr</a></li>
+          <li><span>La Provence — PACA</span> <a href="mailto:redaction@laprovence.com">redaction@laprovence.com</a></li>
+          <li><span>France 3 PACA — TV</span> <a href="mailto:provence-alpes@francetv.fr">provence-alpes@francetv.fr</a></li>
+        </ul>
+      </div>
+      <div class="action-card">
+        <h3>🏛️ 3. Recours institutionnels</h3>
+        <ul class="recours-list">
+          <li>
+            <strong>Défenseur des Droits</strong>
+            Signaler la perte de plainte (27/10/2022) et les irrecevabilités abusives cassées 3 fois.
+          </li>
+          <li>
+            <strong>🇪🇺 Parlement Européen (PETI)</strong>
+            Signer la pétition — Art. 47 Charte des droits fondamentaux de l'UE.
+          </li>
+          <li>
+            <strong>⚖️ CEDH — Cour Européenne des Droits de l'Homme</strong>
+            Requête déposée — Art. 6, 13 Convention + Protocole 1. Droit à un procès équitable.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section-light" id="contact">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>Mandataire SARL BMN</h3>
+        <p><strong>ADJAL Amor</strong></p>
+        <p>📧 <a href="mailto:amor@technium.eu">amor@technium.eu</a></p>
+        <p>📞 +33 6 87 81 81 75</p>
+        <p>Carpentras, Vaucluse</p>
+      </div>
+      <div class="contact-card">
+        <h3>Avocats</h3>
+        <p><strong>Maître Adem DEGIRMENCI</strong><br>Avocat au Barreau d'Avignon<br>
+        📧 <a href="mailto:adem.degirmenci@avocat.fr">adem.degirmenci@avocat.fr</a></p>
+        <hr style="margin: 0.8rem 0; border-color: rgba(255,255,255,0.1)">
+        <p><strong>Maître Hakim CHERGUI</strong><br>16 Quai des Célestins, 75004 Paris<br>
+        📧 <a href="mailto:a.chergui@chergui-avocat.fr">a.chergui@chergui-avocat.fr</a><br>
+        Barreau de Paris, Toque D1510</p>
+      </div>
+      <div class="contact-card">
+        <h3>Référence judiciaire</h3>
+        <p><strong>N° Instruction :</strong> JI CABDOY 22000045</p>
+        <p><strong>N° Parquet :</strong> 22301000030</p>
+        <p><strong>Tribunal :</strong> TJ Avignon — Juge JOURNOT</p>
+        <p><strong>SIREN BMN :</strong> 790 559 561</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <p><strong>Technium.eu</strong> — Site d'information sur l'affaire SARL BMN c/ SMINA</p>
+    <p>Tous les faits mentionnés sont étayés par des pièces versées au dossier d'instruction judiciaire JI CABDOY 22000045.</p>
+    <p>Document établi le 24 mars 2026 — Mis à jour en mai 2026</p>
+    <p style="margin-top:1rem; font-size:0.8rem; opacity:0.5;">
+      CONFIDENTIEL — À usage exclusivement judiciaire et d'information publique
+    </p>
+  </div>
+</footer>
+
+<script>
+function toggleMenu() {
+  document.querySelector('.nav-links').classList.toggle('open');
+}
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const target = document.querySelector(a.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth' });
+      document.querySelector('.nav-links').classList.remove('open');
+    }
+  });
+});
+</script>
+
+</body>
+</html>
