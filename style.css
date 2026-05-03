@@ -481,6 +481,8 @@ td { padding: 0.5rem 0.8rem; border-bottom: 1px solid rgba(255,255,255,0.05); }
 .doc-item.danger .doc-ref  { color: var(--red); }
 .doc-title { font-weight: 600; color: var(--white); }
 .doc-desc { font-size: 0.8rem; color: var(--muted); grid-column: 1 / -1; margin-top: 0.2rem; }
+.doc-intro { font-size: 0.85rem; color: var(--muted); margin: 0.5rem 0 1rem; font-style: italic; }
+.source-cite { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; font-style: italic; }
 
 /* ── CONTACT ── */
 .contact-grid {
